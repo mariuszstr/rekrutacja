@@ -4,4 +4,7 @@
 /public/bundles/
 /var/
 /vendor/
+*.lock
+.env.dist
+.idea
 ###< symfony/framework-bundle ###
