@@ -1,0 +1,14 @@
+<head>
+    <title>Sedoc</title>
+</head>
+<body>
+{% for key, value in file_names %}
+    <img src="current_images/{{ value }}">
+    {% if is_current[key] %}
+        Not updated.
+    {% else %}
+        Updated.
+    {% endif %}
+    <hr>
+{% endfor %}
+</body>
