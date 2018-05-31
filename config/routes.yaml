@@ -1,0 +1,6 @@
+index:
+    path: /
+    controller: App\Controller\DefaultController::index
+results:
+    path: /results
+    controller: App\Controller\DefaultController::imagesList
